@@ -1,0 +1,32 @@
+img {
+    width: 250px;
+
+}
+
+.right {
+    float: right;
+    background-color: rgb(211, 211, 211);
+    border: 1px solid gray;
+    padding: 20px
+}
+
+.left {
+    float: left;
+    background-color: rgb(211, 211, 211);
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+a {
+    color: darkcyan;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+ol {
+    background-color: rgb(211, 211, 211);
+    border: 1px solid gray;
+    padding: 20px;
+    width: 250px;
+}
