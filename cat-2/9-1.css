@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    text-shadow: 2px 2px 7px lightblue;
+}
+
+.content {
+    background-color: coral;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: khaki;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    width: 70px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    background-color: coral;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: darkcyan;
+    margin: 7px;
+}
+
+body {
+    margin: 0;
+}
+
+.socio a {
+    font-size: 2em;
+    color: black;
+}
+
+.socio a:hover {
+    color: blueviolet;
+}
+
+.footer {
+    background-color: rgb(44, 44, 44);
+    color: azure;
+    padding: 30px;
+}
