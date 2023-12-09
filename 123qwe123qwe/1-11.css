@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    font-family: 'Dhurjati', sans-serif;
+    font-family: 'Kalnia', serif;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 3em;
+    animation-name: alalala;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes alalala {
+    0% {
+        color: aqua;
+        transform: translateX(100px);
+    }
+
+    10% {
+        color: cyan;
+    }
+
+    20% {
+        color: darkcyan;
+    }
+
+    30% {
+        color: dodgerblue;
+    }
+
+    40% {
+        color: darkslategrey;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    60% {
+        color: darkblue;
+    }
+
+    70% {
+        color: cornflowerblue;
+    }
+
+    80% {
+        color: darkseagreen;
+    }
+
+    90% {
+        color: darksalmon;
+    }
+
+    100% {
+        color: coral;
+        transform: translateX(-100px);
+    }
+}
+h1:hover {
+    animation-play-state: paused;
+}

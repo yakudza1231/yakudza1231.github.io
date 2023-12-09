@@ -1,0 +1,76 @@
+.container {
+    width: 200px;
+    height: 430px;
+    padding-top: 100px;
+    margin: 0 auto;
+    background-color: cyan;
+}
+
+@keyframes right {
+    0% {
+        transform: translateX(-15px);
+        background-color: orange;
+    }
+
+    50% {
+        transform: translateX(15px);
+        background-color: chocolate
+    }
+
+    100% {
+        transform: translateX(-15px);
+        background-color: darkmagenta;
+    }
+}
+
+@keyframes left {
+    0% {
+        transform: translateX(15px);
+        background-color: coral;
+    }
+
+    50% {
+        transform: translateX(-15px);
+        background-color: darkcyan;
+    }
+
+    100% {
+        transform: translateX(15px);
+        background-color: blue;
+    }
+}
+
+.ball1,
+.ball2,
+.ball3,
+.ball4,
+.ball5,
+.ball6,
+.ball7
+{
+height: 15px;
+border-radius: 50%;
+width: 15px;
+margin: 10px auto;
+}
+.ball1{
+    animation: right 1s infinite ease-in-out
+}
+.ball2{
+    animation: right 1.1s infinite ease-in-out
+}
+.ball3{
+    animation: right 1.05s infinite ease-in-out
+}
+.ball4{
+    animation: right 1.15s infinite ease-in-out
+}
+.ball5{
+    animation: right 1.1s infinite ease-in-out
+}
+.ball6{
+    animation: right 1.05s infinite ease-in-out
+}
+.ball7{
+    animation: right 1s infinite ease-in-out
+}
